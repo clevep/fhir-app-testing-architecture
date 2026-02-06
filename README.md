@@ -244,6 +244,6 @@ Contract -.-> Emulator;
 
 ## Summary
 
-- **Local:** fully mocked, resettable, deterministic.
-- **Dev:** emulator by default, with opt-in live canary checks.
-- **Staging:** real Epic sandbox by default, emulator as a controlled fallback.
+- **Local:** fully mocked, resettable, deterministic. Fast and safe.
+- **Dev:** emulator by default, with opt-in live canary checks. Closer to real, with the option to switch to the EHR sandbox.
+- **Staging:** real Epic sandbox by default, emulator as a controlled fallback. Where the rubber meets the road.
